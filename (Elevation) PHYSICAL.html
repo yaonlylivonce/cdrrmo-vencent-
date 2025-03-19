@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/DLNSJ_logo.png"/>
+    <title>ELEVATION | San Juan DRRM</title>
+    <link rel="stylesheet" href="BARANGAY CSS.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logos">
+            <img src="DLNSJ_logo.png">
+            <img src="MSJ_logo.png">
+            <img src="CDR_logo.png">
+        </div>
+        <div class="nav">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button><img src="newsearch-icon.png" alt="Search"></button>
+            </div>
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Risk Analysis +</a>
+                <div class="dropdown-content">
+                    <a href="#">Barangay</a>
+                    <a href="local.html">Local</a>
+                    <a href="national.html">National</a>
+                    <a href="#">6Hr Analysis</a>
+                    <a href="#">Sensor Networks</a>
+                    <a href="#">TC Analysis</a>
+                    <a href="#">Historical</a>
+                    <a href="#">Physical Risk Assessment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_2">
+        <main class="main-content">
+          <div class="text_physicallist">
+            <h1>San Juan City Elevation</h1>
+            <div class="container">
+              <div class="map-container">
+                <!-- link map here -->
+                <img src="san_juan_map.png" alt="San Juan City Elevation Map"> </div>
+              <div class="table-container">
+                <table>
+                  <tr>
+                    <th>Barangay</th>
+                    <th>Elevation (m)</th>
+                  </tr>
+                  <tr>
+                    <td>Addition Hills</td>
+                    <td class="high-elevation">79.60159562</td>
+                  </tr>
+                  <tr>
+                    <td>Balong-Bato</td>
+                    <td class="med-elevation">17.54996464</td>
+                  </tr>
+                  <tr>
+                    <td>Batis</td>
+                    <td class="low-elevation">11.84596062</td>
+                  </tr>
+                  <tr>
+                    <td>Corazon De Jesus</td>
+                    <td class="med-elevation">27.01696096</td>
+                  </tr>
+                  <tr>
+                    <td>Ermitaño</td>
+                    <td class="med-elevation">14.124217799</td>
+                  </tr>
+                  <tr>
+                    <td>Halo-halo (St. Joseph)</td>
+                    <td class="med-elevation">21.65186048</td>
+                  </tr>
+                  <tr>
+                    <td>Isabelita</td>
+                    <td class="med-elevation">25.7969042</td>
+                  </tr>
+                  <tr>
+                    <td>Kabayanan</td>
+                    <td class="low-elevation">13.08817387</td>
+                  </tr>
+                  <tr>
+                    <td>Little Baguio</td>
+                    <td class="high-elevation">38.71977264</td>
+                  </tr>
+                  <tr>
+                    <td>Maytunas</td>
+                    <td class="low-elevation">12.84820271</td>
+                  </tr>
+                  <tr>
+                    <td>Onse</td>
+                    <td class="high-elevation">21.7209464</td>
+                  </tr>
+                  <tr>
+                    <td>Pasadena</td>
+                    <td class="high-elevation">30.1834712</td>
+                  </tr>
+                  <tr>
+                    <td>Pedro Cruz</td>
+                    <td class="low-elevation">12.577961655</td>
+                  </tr>
+                  <tr>
+                    <td>Progreso</td>
+                    <td class="low-elevation">7.310494423</td>
+                  </tr>
+                  <tr>
+                    <td>Rivera</td>
+                    <td class="low-elevation">10.95712471</td>
+                  </tr>
+                  <tr>
+                    <td>Salapan</td>
+                    <td class="low-elevation">9.700563431</td>
+                  </tr>
+                  <tr>
+                    <td>San Perfecto</td>
+                    <td class="low-elevation">7.560429573</td>
+                  </tr>
+                  <tr>
+                    <td>Santa Lucia</td>
+                    <td class="low-elevation">13.40036201</td>
+                  </tr>
+                  <tr>
+                    <td>Tibagan</td>
+                    <td class="high-elevation">17.64558601</td>
+                  </tr>
+                  <tr>
+                    <td>West Crame</td>
+                    <td class="high-elevation">34.91388702</td>
+                  </tr>
+                  <tr>
+                    <td>Greenhills</td>
+                    <td class="high-elevation">29.72333908</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+        </div>         
+</div>
+<nav>
+  <div class="links-container">
+      <div class="datatype">
+          <div class="datatype-list">
+              <div class="datatype-title">
+                  Choose Parameter
+              </div>
+              <div class="DT-dropdown">
+                  <select id="DTtype-type" class="DTtype-select">
+                      <option value="Cityhood">Cityhood</option>
+                      <option value="Barangay">Barangay</option>
+                      <option value="Critical Infrastructure">Critical Insfrastructure</option>
+                      <option value="Demography">Demography</option>
+                      <option value="Elevation">Elevation</option>
+                      <option value="Evacuation">Evacuation</option>
+                      <option value="Vulnerable Population">Vulnerable Population</option>
+                      <option value="Water Supply Distribution">Water Supply Distribution</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="datatype">
+<div class="datatype-list">
+  <div class="datatype-title">
+      Choose the Map Type
+  </div>
+  <div class="DT-dropdown">
+      <select id="map-type-select" class="DTtype-select">
+          <option value="street">Street</option>
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+          <option value="satellite">Satellite</option>
+          <option value="outdoor">Outdoor</option>
+      </select>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</body>
+</html>
