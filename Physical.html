@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/DLNSJ_logo.png"/>
+    <title>PHYSICAL RISK & ASSESSMENT | San Juan DRRM</title>
+    <link rel="stylesheet" href="BARANGAY CSS.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logos">
+            <img src="DLNSJ_logo.png">
+            <img src="MSJ_logo.png">
+            <img src="CDR_logo.png">
+        </div>
+        <div class="nav">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button><img src="newsearch-icon.png" alt="Search"></button>
+            </div>
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Risk Analysis +</a>
+                <div class="dropdown-content">
+                    <a href="#">Barangay</a>
+                    <a href="local.html">Local</a>
+                    <a href="national.html">National</a>
+                    <a href="#">6Hr Analysis</a>
+                    <a href="#">Sensor Networks</a>
+                    <a href="#">TC Analysis</a>
+                    <a href="#">Historical</a>
+                    <a href="#">Physical Risk Assessment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_2">
+        <main class="main-content">
+          <div class="text_physicallist">
+            <h1>Hospitals, Health Facilities, and Evacuation Center of San Juan City</h1>
+            <h2>Hospitals</h2>
+    
+    <table>
+      <tr>
+        <th>Name of the Hospital</th>
+        <th>Capacity</th>
+        <th>Location</th>
+        <th>Hospital Schedule</th>
+      </tr>
+      <tr>
+        <td>San Juan Medical Center</td>
+        <td>198</td>
+        <td>71 N. Domingo</td>
+        <td>Open 24 Hours</td>
+      </tr>
+      <tr>
+        <td>Cardinal Santos Medical Center</td>
+        <td>200 to 300</td>
+        <td>10 Wilson, Greenhills West</td>
+        <td>Open 24 Hours</td>
+      </tr>
+      <tr>
+        <td>San Juan Main Health Center</td>
+        <td>150</td>
+        <td>J23G+FVP</td>
+        <td>Open 24 Hours</td>
+      </tr>
+    </table>
+    
+    <h2>Health Facilities</h2>
+    
+    <table>
+      <tr>
+        <th>Name of the Health Facilities</th>
+        <th>Contact</th>
+        <th>Location</th>
+        <th>Facilities Schedule</th>
+      </tr>
+      <tr>
+        <td>Onse Health Center</td>
+        <td>123-456</td>
+        <td>29 San Luis</td>
+        <td>Open today, Closed at 4PM</td>
+      </tr>
+      <tr>
+        <td>Brgy. Tibagan Health Center</td>
+        <td>321-654</td>
+        <td>Don Emilio Ejercito</td>
+        <td>Closed</td>
+      </tr>
+      <tr>
+        <td>Brgy. Corazon de Jesus Health Center</td>
+        <td>987-456</td>
+        <td>480 Lt. Artiaga</td>
+        <td>Open today, Closed at 5PM</td>
+      </tr>
+    </table>
+    
+    <h2>Evacuation Center</h2>
+    
+    <table>
+      <tr>
+        <th>Name of the Evacuation Center</th>
+        <th>Capacity</th>
+        <th>Evacuation Site</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>San Juan City DRRMO</td>
+        <td>100</td>
+        <td>Pinaglabanan St.</td>
+        <td>Accepting</td>
+      </tr>
+      <tr>
+        <td>Addition Hills Multi-purpose Hall</td>
+        <td>200</td>
+        <td>Welfare Ville</td>
+        <td>Closed</td>
+      </tr>
+      <tr>
+        <td>Barangay San Miguel</td>
+        <td>150</td>
+        <td>31 F. Manalo</td>
+        <td>Closed</td>
+      </tr>
+    </table>
+        </div>         
+</div>
+<nav>
+  <div class="links-container">
+      <div class="datatype">
+          <div class="datatype-list">
+              <div class="datatype-title">
+                  Choose Parameter
+              </div>
+              <div class="DT-dropdown">
+                  <select id="DTtype-type" class="DTtype-select">
+                      <option value="Cityhood">Cityhood</option>
+                      <option value="Barangay">Barangay</option>
+                      <option value="Critical Infrastructure">Critical Insfrastructure</option>
+                      <option value="Demography">Demography</option>
+                      <option value="Elevation">Elevation</option>
+                      <option value="Evacuation">Evacuation</option>
+                      <option value="Vulnerable Population">Vulnerable Population</option>
+                      <option value="Water Supply Distribution">Water Supply Distribution</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="links-container">
+      <div class="datatype">
+          <div class="datatype-list">
+              <div class="datatype-title">
+                  Choose Section
+              </div>
+              <div class="DT-dropdown">
+                  <select id="DTparameter-type" class="DTtype-select">
+                      <option value="Health">Health</option>
+                      <option value="Population Density">Population Density</option>
+                      <option value="San Juan Land Cover">San Juan Land Cover</option>
+                  </select>
+              </div>
+          </div>
+      </div>
+  </div>
+<div class="datatype">
+<div class="datatype-list">
+  <div class="datatype-title">
+      Choose the Map Type
+  </div>
+  <div class="DT-dropdown">
+      <select id="map-type-select" class="DTtype-select">
+          <option value="street">Street</option>
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+          <option value="satellite">Satellite</option>
+          <option value="outdoor">Outdoor</option>
+      </select>
+  </div>
+</div>
+</div>
+
+<div class="datatype">
+<div class="datatype-list">
+  <div class="datatype-title">
+      Choose Barangay
+  </div>
+  <div class="DT-dropdown">
+      <select id="show-parameter-select" class="DTtype-select">
+          <option value="All">All</option>
+          <option value="Addition Hills" selected>Addition Hills</option>
+      </select>
+  </div>
+</div>
+</div>
+</nav>
+</body>
+</html>
