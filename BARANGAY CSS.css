@@ -932,6 +932,7 @@ nav{
     margin-bottom: 9px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
 .DT-dropdown {
@@ -1048,3 +1049,88 @@ body {
   tr:nth-child(even) {
     background-color: #f2f2f2; /* Light gray for even rows */
   }
+/* ------------------------ */
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #337ab7; /* Dark blue header */
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+  }
+  
+  /* Styling for population density color coding */
+  .low-density { background-color: #007bff; } /* Blue */
+  .med-low-density { background-color: #00cccc; } /* Teal */
+  .med-high-density { background-color: #28a745; } /* Green */
+  .high-density { background-color: #dc3545; } /* Red */
+/*------------------------------*/
+
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2; /* Dark background */
+    color: white;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly */
+    margin-left: 20%;
+  }
+  
+  .map-container {
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  .map-container {
+    width: 100%;
+    height: auto;
+  }
+  
+  .table-container {
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 130%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #337ab7; /* Dark blue header */
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Dark gray for even rows */
+  }
+  
+  /* Add color coding for elevation */
+  .low-elevation { background-color: #ffcc80; } /* Light orange */
+  .med-elevation { background-color: #f5f5dc; } /* Beige */
+  .high-elevation { background-color: #dc3545; } /* Red */
+  
