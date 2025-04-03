@@ -1,0 +1,2937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/DLNSJ_logo.png"/>
+    <title>WATER SUPPLY DISTRIBUTION | San Juan DRRMO</title>
+    <link rel="stylesheet" href="Water Supply Main CSS.css">
+    <script src="Water Supply JS.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="logos">
+            <img src="DLNSJ_logo.png">
+            <img src="MSJ_logo.png">
+            <img src="CDR_logo.png">
+        </div>
+        <div class="nav">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button><img src="search-icon.png" alt="Search"></button>
+            </div>
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Risk Analysis +</a>
+                <div class="dropdown-content">
+                    <a href="#">Barangay</a>
+                    <a href="Local.html">Local</a>
+                    <a href="National.html">National</a>
+                    <a href="#">6Hr Analysis</a>
+                    <a href="#">Sensor Networks</a>
+                    <a href="TC.html">TC Analysis</a>
+                    <a href="#">Historical</a>
+                    <a href="#">Physical Risk Assessment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container1">
+        <div class="main-content">
+            <div class="content1">
+                Water Supply Distribution of San Juan City
+                <button class="button" onclick="printDiv()"> <img src="print-icon.png"> </button>
+            </div>
+        </div>
+    </div>
+    <div id="container2">
+        <table>
+            <tr>
+              <th>Barangay</th>
+              <th>Street</th>
+              <th>Year Built</th>
+              <th>Type</th>
+              <th>Length (km)</th>
+              <th>Width (m)</th>
+              <th>Height (m)</th>
+              <th>Physical Condition</th>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>C.M. Recto Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.24</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>C.M. Recto Street</td>
+              <td>2000</td>
+              <td>Concrete box culvert</td>
+              <td>0.1603</td>
+              <td>0.61</td>
+              <td>0.61</td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>P. Burgos Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.25</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>P. Burgos Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.2392</td>
+              <td>0.457</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Ortega Street (2)</td>
+              <td>2013</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.4952</td>
+              <td>0.76</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Pilar Street</td>
+              <td>2013</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.3683</td>
+              <td>0.76</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>A. Mabini Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.58</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Capt. Roja Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.2937</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>E. Rodriguez Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.5042</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Wack Wack Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.2218</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>P. Zamora Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.2062</td>
+              <td>0.457</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Araullo Street</td>
+              <td>2013</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.771</td>
+              <td>0.76</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>P. Gomez Street</td>
+              <td>2013</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.1742</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Maude Street</td>
+              <td>2000</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.1096</td>
+              <td>0.457</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+              <td>Addition Hills</td>
+              <td>Luna Mencias Street</td>
+              <td>2013</td>
+              <td>Reinforced concrete pipe</td>
+              <td>0.2603</td>
+              <td>0.61</td>
+              <td></td>
+              <td>Fair</td>
+            </tr>
+            <tr>
+                <td>Addition Hills</td>
+                <td>Luna Mencias Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.14</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>Montessori Lane</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2086</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>Barcelona Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2538</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>Hoover Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4176</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>L. George Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2087</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>Argonne Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1641</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>Corta Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.067</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Addition Hills</td>
+                <td>O. Arellano Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>A. Luna Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.11</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>A. Luna Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.065</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>A. Luna Street</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.095</td>
+                <td>0.61</td>
+                <td>0.508</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>F. Roman Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3463</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>A. Lake Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3588</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>H. Lozada Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3593</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>J. Ruiz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3273</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>G. Reyes Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3108</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>Lourdes Drive Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2842</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>De Leon Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.1212</td>
+                <td>1.8</td>
+                <td>1.44</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>De Leon Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1212</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>Marina Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1557</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>R. Lagmay Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.7922</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>S. Guzman Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4101</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>C. Leyva Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2766</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Balong Bato</td>
+                <td>C. Santos Street</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.0716</td>
+                <td>0.3</td>
+                <td>0.15</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>E. Fernandez Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.3714</td>
+                <td>1.067</td>
+                <td>0.508</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>M. Salvador Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.184</td>
+                <td>0.61</td>
+                <td>0.381</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Valenzuela Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.29</td>
+                <td>1.37</td>
+                <td>1.52</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Valenzuela Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.17</td>
+                <td>1.52</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Valenzuela Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.28</td>
+                <td>1.37</td>
+                <td>1.52</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Valenzuela Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.18</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Gen. Bautista Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4752</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>R. Pascual Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.437</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>S. Tuano Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1883</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>J. Wright Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3138</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Luis Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4521</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Pablo Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3039</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Miguel Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3489</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>R.J. Fernandez Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4284</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>A. Rita Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.7478</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>A. Rita Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.5478</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>A. Rita Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Jose Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1781</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Rafael Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.0821</td>
+                <td>0.61</td>
+                <td>0.61</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>San Mauricio Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1786</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>Gen. Malvar Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.215</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Batis</td>
+                <td>A. Villa Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.1817</td>
+                <td>1.512</td>
+                <td>1.25</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Corazon De Jesus Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3509</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Ipil Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0611</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Yakal Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0635</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Lt. Artiaga Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.849</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Josefa Drive Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2392</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Victoria Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0746</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Pancho Villa Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.136</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Pinaglabanan Road</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.6042</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Dr. P. A. Narciso Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2067</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>V. Sotto Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1972</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Mulawin Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.085</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>Paraiso Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1972</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>P. Guevarra Extension</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1001</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>San Roque Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.242</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Corazon De Jesus</td>
+                <td>St. John Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.095</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>R. Lagmay Extension Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.072</td>
+                <td>2.74</td>
+                <td>2.3</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>Mendoza Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1571</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>F. Santos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1422</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>A. Soriano Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.502</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>M. Cristobal Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1048</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>Milagros Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1347</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Ermitaño</td>
+                <td>Grey Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1218</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Xavier Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>1.5936</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Washington Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>1.1906</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Connecticut Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>1.4561</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Grant Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2004</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Madison Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2909</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Missouri Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3082</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Club Filipino Avenue</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3315</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Eisenhower Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4383</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Greenhills</td>
+                <td>Annapolis</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.9682</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Isabelita</td>
+                <td>C. Dungo Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.12</td>
+                <td>1.09</td>
+                <td>0.87</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Isabelita</td>
+                <td>P. Perey Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.12</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Isabelita</td>
+                <td>P. Santos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.14</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Isabelita</td>
+                <td>Pinaglabanan Extension</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.175</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Isabelita</td>
+                <td>Hubilla Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1569</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>A. Bonifacio Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3262</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>V. Angeles Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2769</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>G. Soriano Street</td>
+                <td>2018</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.13</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>G. Soriano Street</td>
+                <td>2018</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.1706</td>
+                <td>1.8</td>
+                <td>1.44</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>T. Claudio Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.06</td>
+                <td>1.83</td>
+                <td>1.52</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>T. Claudio Street</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.14</td>
+                <td>0.457</td>
+                <td>0.61</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>I. Francisco Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.146</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>C. Urbino Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0444</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>Col. M Z Ver Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2271</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Kabayanan</td>
+                <td>A. Rita Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.077</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Iburna Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2414</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Iburna Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2414</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Re-Raon Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.021</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>J. A. Santos Street (2)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>1.1238</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Gen. V. Lim Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.17</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Gen. V. Lim Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.11</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Gen. Mascardo Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1163</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Gen. Segundo Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1385</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Prospect/Infante Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1819</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Mangga Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1223</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Gen. De Jesus Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2123</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Col. M Ver Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1073</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>M. A. Reyes Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.5064</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>J. De Mesa Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3012</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>J. Gutierrez Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3289</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>V. Ibanez Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.5471</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Jacinto Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2181</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Biak Na Bato Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.165</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>F. Calderon Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1181</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Lopez Jaena Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0845</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Wilson Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.1259</td>
+                <td>0.61</td>
+                <td>0.61</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Barasoain Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.085</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Grant Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0937</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>V. Cruz Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.076</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Alvir Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.11</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Little Baguio</td>
+                <td>Mons Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.08</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Gruet Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.8989</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>V. Cruz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1047</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>V. Cruz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.05</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Aurora Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1697</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>M. Marcos Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.31</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>M. Marcos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.23</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>M. Marcos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.22</td>
+                <td>1.067</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>M. Marcos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.14</td>
+                <td>1.524</td>
+                <td>0.61</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>M. H. Del Pilar Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.047</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Wilson Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2402</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Argonne Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0541</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Smutt Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1212</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Barcelona Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3237</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Maude Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1568</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Liege Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.063</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>C M Recto Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.072</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>C M Recto Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.072</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Allenby Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.1274</td>
+                <td>0.61</td>
+                <td>0.61</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Maytunas</td>
+                <td>Aras Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.076</td>
+                <td>5.487</td>
+                <td>6.1</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Carriedo Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3548</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>P. R. Sotto Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1339</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>J. P. Rizal Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.56</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Gen. San Luis Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1668</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Adevosso Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0844</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Montoya Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2072</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Hilltop Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1857</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Iburna Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2922</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>B. Mejino Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0329</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Suarez Street (Pag-ibig)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.07</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Salamat Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0485</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Cypress Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0642</td>
+                <td>1.016</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Hardboard Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1829</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Marne Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.097</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Pangambiban Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1031</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>A. Bonifacio Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.21</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>F. Valentin Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1289</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>F. Marcelo Extension</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.19</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Onse</td>
+                <td>Maclang Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>M. Paterno Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3557</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>M. Paterno Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.55</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Alfonso XIII Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4105</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Lt. Artiaga Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.5228</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>F.F. Benitez Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.7224</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Pasadena Drive</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2181</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Pasadena Drive</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Hillside Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1565</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Dos Castillas Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1289</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pasadeña</td>
+                <td>Ledesma Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.076</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Atty. P. B. Mendoza Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4164</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>J. Basa Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4728</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Benavides Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.12</td>
+                <td>0.406</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Lope K. Santos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4245</td>
+                <td>0.406</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Pablo De Tavera Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0608</td>
+                <td>0.203</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>D. Santiago Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.24</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>P. Grande Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1329</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>F. Sevilla Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.299</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Dr. A. Ejercito Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0819</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Mons. Alvarez Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1326</td>
+                <td>0.203</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Pedro Cruz</td>
+                <td>Capt. Manzano Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1592</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Progreso</td>
+                <td>J. Eustaquio Street</td>
+                <td>2020</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.1524</td>
+                <td>1.46</td>
+                <td>1.2</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Progreso</td>
+                <td>F. Atanacio Street</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.0096</td>
+                <td>0.3</td>
+                <td>0.5</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Progreso</td>
+                <td>Dr. B. Sto Domingo Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1061</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Progreso</td>
+                <td>M. Cruz Street</td>
+                <td>2020</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.0582</td>
+                <td>1.98</td>
+                <td>1.58</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>San Fabian Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0737</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>C. Olazo Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1011</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>Katubusan Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.083</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>G. B. Santos Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2104</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>San Manuel Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1702</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Rivera</td>
+                <td>Rivera Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.147</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>A. Luna Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.5396</td>
+                <td>1.8</td>
+                <td>1.44</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>F. Roman Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2793</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>Acinas Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1193</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>S. Veloso Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2239</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>Diwa Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1073</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>J. Ruiz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4273</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>G. Reyes Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1651</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>A. Juan Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.133</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>Morales Street</td>
+                <td>2015</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.052</td>
+                <td>1.8</td>
+                <td>1.44</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>A. Lake Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2771</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>29 De Agosto Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3056</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>A. Reyes Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1396</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>Melanio De Salagan Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1005</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>J. Dela Cruz Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1158</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>F. Antonio Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2046</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Salapan</td>
+                <td>Tabing-Ilog Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.1046</td>
+                <td>1.016</td>
+                <td>0.8</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Perfecto Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.06</td>
+                <td>1.68</td>
+                <td>1.34</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Perfecto Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Joaquin Street</td>
+                <td>2014</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1344</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Gabriel Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1607</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>Sto. Toribio Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0994</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>M. Salvador Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1681</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>Tayug Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1096</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>Leyte Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0661</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>Victory Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0715</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Remigio Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.0528</td>
+                <td>0.914</td>
+                <td>0.71</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>San Perfecto</td>
+                <td>San Jorge Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0551</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Mons Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>D. Vicente Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2799</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Miranda Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.3206</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>T. Claudio Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1567</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>P. Parada Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.9233</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>V. Cruz Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.4</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>V. Cruz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.166</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>V. Cruz Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.091</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>B.S Angeles Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1818</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Barcelona Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2142</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>G. Plana Street (2)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.119</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Liege Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1303</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>B. Padilla Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.17</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Fc Salvador Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1265</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>N. Averilla Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2052</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Lions Road</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.109</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Soisson Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1696</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>E. Santos Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.1552</td>
+                <td>0.61</td>
+                <td>0.914</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>J. Asifas Street (2)</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.228</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>Wilson Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.55</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Santa Lucia</td>
+                <td>A. Bonifacio Extension</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2388</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>J. Arellano Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.299</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Regidor Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.167</td>
+                <td>0.914</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>F. Roxas Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2817</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>R. Pascual Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2467</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>P. R. Sotto Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2789</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Gen. San Luis Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2937</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Villamor Street</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2925</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Don Ejercito Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.25</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Don Ejercito Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.11</td>
+                <td>0.914</td>
+                <td>0.661</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Kalayaan Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0492</td>
+                <td>0.76</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>J. Alviar Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.0975</td>
+                <td>0.61</td>
+                <td>0.76</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Laura Street</td>
+                <td>2000</td>
+                <td>Concrete box culvert</td>
+                <td>0.085</td>
+                <td>0.914</td>
+                <td>0.661</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>T. Kalaw</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.09</td>
+                <td>0.61</td>
+                <td>0.508</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>T. Kalaw</td>
+                <td>1998</td>
+                <td>Line canal</td>
+                <td>0.09</td>
+                <td>0.305</td>
+                <td>0.356</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>Tibagan</td>
+                <td>Valenzuela Street</td>
+                <td>2013</td>
+                <td>Reinforced concrete box culvert</td>
+                <td>0.35</td>
+                <td>1.09</td>
+                <td>0.87</td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>1st West Crame</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.24</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>2nd West Crame</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.16</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>3rd West Crame</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.2303</td>
+                <td>0.457</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>4th West Crame</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1645</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>5th West Crame</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1645</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Alley 1 (4th & 5th)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.0964</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Alley 2 (3rd & 2nd)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1184</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Alley 3 (3rd & 2nd)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1163</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 1 (2)</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1901</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 2</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.048</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 3</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1004</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 4</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1593</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 5</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.109</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 6</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1641</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 8</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1981</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+              <tr>
+                <td>West Crame</td>
+                <td>Road 9</td>
+                <td>2000</td>
+                <td>Reinforced concrete pipe</td>
+                <td>0.1829</td>
+                <td>0.61</td>
+                <td></td>
+                <td>Fair</td>
+              </tr>
+          </table>
+          <div>
+            <iframe name="print_frame" width="0" height="0" frameborder="0" src="about:blank"></iframe>
+            </div>
+            </div>
+
+
+            <nav>
+                <div class="links-container">
+                    <div class="datatype">
+                        <div class="datatype-list">
+                            <div class="datatype-title">
+                                Choose Parameter
+                            </div>
+                            <div class="DT-dropdown">
+                                <select id="DTtype-type" class="DTtype-select">
+                                    <option value="Cityhood">Cityhood</option>
+                                    <option value="Barangay">Barangay</option>
+                                    <option value="Critical Infrastructure">Critical Insfrastructure</option>
+                                    <option value="Demography">Demography</option>
+                                    <option value="Elevation">Elevation</option>
+                                    <option value="Evacuation">Evacuation</option>
+                                    <option value="Vulnerable Population">Vulnerable Population</option>
+                                    <option value="Water Supply Distribution">Water Supply Distribution</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              <div class="datatype">
+              <div class="datatype-list">
+                <div class="datatype-title">
+                    Choose Barangay
+                </div>
+                <div class="DT-dropdown">
+                    <select id="DTtype-type" class="DTtype-select">
+                        <!-- <option href="Water Supply Addition Hills.html">Local</option> -->
+                        <option value="All">All</option>
+                        <option href="Water Supply Addition Hills.html">Addition Hills</option>
+                        <option value="Balong-Bato"selected>Balong-Bato</option>
+                        <option value="Batis"selected>Batis</option>
+                        <option value="Corazon De Jesus"selected>Corazon De Jesus</option>
+                        <option value="Ermitaño"selected>Ermitaño</option>
+                        <option value="Greenhills"selected>Greenhills</option>
+                        <option value="Halo-Halo (St. Joseph)"selected>Halo-Halo (St. Joseph)</option>
+                        <option value="Isabelita"selected>Isabelita</option>
+                        <option value="Kabayanan"selected>Kabayanan</option>
+                        <option value="Little Baguio"selected>Little Bagu</option>
+                        <option value="Maytunas"selected>Maytunas</option>
+                        <option value="Onse"selected>Onse</option>
+                        <option value="Pasadena"selected>Pasadena</option>
+                        <option value="Pedro Cruz"selected>Pedro Cruz</option>
+                        <option value="Progreso"selected>Progreso</Progress></option>
+                        <option value="Rivera"selected>Rivera</option>
+                        <option value="Salapan"selected>Salapan</option>
+                        <option value="San Perfecto"selected>San Perfecto</option>
+                        <option value="Santa Lucia"selected>Santa Lucia</option>
+                        <option value="Tibagan"selected>Tibagan</option>
+                        <option value="West Crame"selected>West Crame</option>
+                    </select>
+                </div>
+              </div>
+              </div>
+              </nav>
+
+</body>
+</html>
+
