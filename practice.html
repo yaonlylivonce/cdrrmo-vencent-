@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Example</title>
+  <link rel="stylesheet" href="Water Supply Main CSS.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logos">
+            <img src="DLNSJ_logo.png">
+            <img src="MSJ_logo.png">
+            <img src="CDR_logo.png">
+        </div>
+        <div class="nav">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search...">
+                <button><img src="search-icon.png" alt="Search"></button>
+            </div>
+            <a href="Home.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Risk Analysis +</a>
+                <div class="dropdown-content">
+                    <a href="#">Barangay</a>
+                    <a href="Local.html">Local</a>
+                    <a href="National.html">National</a>
+                    <a href="#">6Hr Analysis</a>
+                    <a href="#">Sensor Networks</a>
+                    <a href="TC.html">TC Analysis</a>
+                    <a href="#">Historical</a>
+                    <a href="#">Physical Risk Assessment</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container1">
+        <div class="main-content">
+            <div class="content1">
+                Water Supply Distribution of Brgy. Addition Hills
+                <button class="button" onclick="printDiv()"> <img src="print-icon.png"> </button>
+            </div>
+        </div>
+    </div>
+<div class="DT-dropdown">
+  <select id="DTtype-type" class="DTtype-select">
+    <option value="">Select an option</option>
+    <option href="Water Supply Addition Hills.html">Addition Hills</option>
+  </select>
+</div>
+
+<script>
+document.getElementById('DTtype-type').addEventListener('change', function() {
+  const selectedOption = this.options[this.selectedIndex];
+  const url = selectedOption.getAttribute('href');
+
+  if (url) {
+    window.location.href = url; // Opens in the same tab
+    //window.open(url, '_blank'); // Uncomment to open in a new tab
+  }
+});
+</script>
+
+</body>
+</html>
